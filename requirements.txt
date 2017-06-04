@@ -1,0 +1,11 @@
+django>1.10
+channels
+djangorestframework
+django-libsass
+django_compressor
+python-social-auth
+asgi_redis
+trueskill
+celery[redis]
+social-auth-app-django
+coverage

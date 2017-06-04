@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <value>
+          <list size="11">
+            <item index="0" class="java.lang.String" itemvalue="coverage" />
+            <item index="1" class="java.lang.String" itemvalue="trueskill" />
+            <item index="2" class="java.lang.String" itemvalue="django" />
+            <item index="3" class="java.lang.String" itemvalue="channels" />
+            <item index="4" class="java.lang.String" itemvalue="social-auth-app-django" />
+            <item index="5" class="java.lang.String" itemvalue="python-social-auth" />
+            <item index="6" class="java.lang.String" itemvalue="celery[redis]" />
+            <item index="7" class="java.lang.String" itemvalue="asgi_redis" />
+            <item index="8" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="9" class="java.lang.String" itemvalue="django_compressor" />
+            <item index="10" class="java.lang.String" itemvalue="django-libsass" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
