@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mm_base.apps.MmBaseConfig',
+    'plus_membership.apps.PlusMembershipConfig',
     'channels',
     'social_django',
     'rest_framework',
@@ -174,9 +175,9 @@ COMPRESS_PRECOMPILERS = (
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
-    #'DEFAULT_PERMISSION_CLASSES': [
+    # 'DEFAULT_PERMISSION_CLASSES': [
     #    'rest_framework.permissions.IsAuthenticated'
-    #],
+    # ],
     'PAGE_SIZE': 10,
 }
 

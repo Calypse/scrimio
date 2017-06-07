@@ -1,8 +1,14 @@
 <component name="ProjectDictionaryState">
   <dictionary name="wandows">
     <words>
+      <w>asgiref</w>
+      <w>backends</w>
+      <w>inmemory</w>
+      <w>scrimio</w>
+      <w>sqlite</w>
       <w>trueskill</w>
       <w>websocket</w>
+      <w>wsgi</w>
     </words>
   </dictionary>
 </component>

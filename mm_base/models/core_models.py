@@ -2,12 +2,12 @@ from django.db import models, OperationalError
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 from django.utils import timezone
-from .app_settings import TEAM_SIZE, NUM_TEAMS, ELO_DEFAULT_FAIRNESS_THRESHOLD, REGIONS
+from ..app_settings import TEAM_SIZE, NUM_TEAMS, ELO_DEFAULT_FAIRNESS_THRESHOLD, REGIONS
 
 
 class Player(models.Model):
     """ Django User Extension for MM system """
-    user = models.ForeignKey(User, related_name=("%s_mm_user" % "REPLACE_ME"))
+    user = models.OneToOneField(User, related_name=("%s_mm_user" % "REPLACE_ME"), primary_key=True)
     elo = models.IntegerField(default=2500)  # Trueskill MU
     elo_weight = models.FloatField(default=50)  # Trueskill SIGMA
 
